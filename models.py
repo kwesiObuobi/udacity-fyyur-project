@@ -7,7 +7,6 @@ from app import db
 # Models.
 #----------------------------------------------------------------------------#
 
-# TODO Implement Show and Artist models, and complete all model relationships and properties, as a database migration. -- (completed by Samuel Lartey)
 shows_table = db.Table('Show', 
   db.Column('artist_id', db.Integer, db.ForeignKey('Artist.id'), primary_key=True),
   db.Column('venue_id', db.Integer, db.ForeignKey('Venue.id'), primary_key=True),
@@ -27,7 +26,6 @@ class Venue(db.Model):
     phone = db.Column(db.String(120))
     image_link = db.Column(db.String(500))
     facebook_link = db.Column(db.String(120))
-    # TODO: implement any missing fields, as a database migration using Flask-Migrate -- (completed by Samuel Lartey)
     genres = db.Column(db.String)
     website_link = db.Column(db.String(120))
     looking_for_talent = db.Column(db.Boolean, default=False, nullable=False)
@@ -46,7 +44,6 @@ class Artist(db.Model):
     genres = db.Column(db.String(120))
     image_link = db.Column(db.String(500))
     facebook_link = db.Column(db.String(120))
-    # TODO: implement any missing fields, as a database migration using Flask-Migrate -- (completed by Samuel Lartey)
     genres = db.Column(db.String)
     website_link = db.Column(db.String(120))
     seeking_venue = db.Column(db.Boolean, default=False, nullable=False)
