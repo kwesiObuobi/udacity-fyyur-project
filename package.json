@@ -11,5 +11,13 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^3.4.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwesiObuobi/udacity-fyyur-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kwesiObuobi/udacity-fyyur-project/issues"
+  },
+  "homepage": "https://github.com/kwesiObuobi/udacity-fyyur-project#readme"
 }
