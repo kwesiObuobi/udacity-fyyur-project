@@ -4,6 +4,8 @@ env/
 __pycache__/
 error.log
 
+node_modules
+
 # dotenv
 .env
 
