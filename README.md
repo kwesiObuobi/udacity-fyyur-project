@@ -10,13 +10,13 @@ This was a half-completed Udacity project from their ALX-T Full Stack Web Develo
 We want Fyyur to be the next new platform that artists and musical venues can use to find each other, and discover new music shows. Let's make that happen!
 
 ## Tasks Completed
-:white_check_mark: Connected the application to a local database
-:white_check_mark: Set up normalized  models for the objects supported in the web app models section of `app.py`
-:white_check_mark: Implemeted missing model properties and relationships using database migrations via Flask-Migrate
-:white_check_mark: Implemented form submissions for creating new Venues, Artists, and Shows. Proper constraints were set to duplicate or nonsensical form submissions. Ensured form submissions could create proper new records in the database.
-:white_check_mark: Implemented the controllers for listing venues, artists, and shows. 
-:white_check_mark: Implemented search functionality, powering the `search` endpoints which serve the application's search functionalities.
-:white_check_mark: Served venue and artist details pages, powering the `<venue|artist>/<id>` endpoints which power the details pages.
+* :white_check_mark: Connected the application to a local database
+* :white_check_mark: Set up normalized  models for the objects supported in the web app models section of `app.py` 
+* :white_check_mark: Implemeted missing model properties and relationships using database migrations via Flask-Migrate. <br/>
+* :white_check_mark: Implemented form submissions for creating new Venues, Artists, and Shows. Proper constraints were set to duplicate or nonsensical form submissions. Ensured form submissions could create proper new records in the database. <br/>
+* :white_check_mark: Implemented the controllers for listing venues, artists, and shows. <br/>
+* :white_check_mark: Implemented search functionality, powering the `search` endpoints which serve the application's search functionalities. <br/>
+* :white_check_mark: Served venue and artist details pages, powering the `<venue|artist>/<id>` endpoints which power the details pages.
 
 
 ## Tech Stack (Dependencies)
